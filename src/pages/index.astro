@@ -1,17 +1,10 @@
 ---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HomeBanner from "../components/HomeBanner.astro";
+import Header from "../components/Header.astro";
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
-  </head>
-  <body class="bg-indigo-900">
-    <h1 class="font-thin">Astro</h1>
-    <a href="/">Home</a>
-    <a href="/about/">About</a>
-  </body>
-</html>
+<BaseLayout pageTitle={"Leetcode Solutions 🪨"}>
+  <Header />
+  <HomeBanner />
+</BaseLayout>
