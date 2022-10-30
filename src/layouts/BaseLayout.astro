@@ -1,5 +1,6 @@
 ---
 const { pageTitle } = Astro.props;
+import Header from "../components/Header.astro";
 ---
 
 <!-- Base layout for all pages which has html and meta tags -->
@@ -14,6 +15,7 @@ const { pageTitle } = Astro.props;
   <body
     class="min-h-screen font-sans bg-rose-200 text-zinc-900 dark:bg-gradient-to-tl dark:from-blue-900 dark:to-slate-900 dark:text-white"
   >
+    <Header />
     <slot />
   </body>
 </html>
