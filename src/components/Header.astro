@@ -2,34 +2,102 @@
 import DarkModeToggler from "./darkModeToggler";
 ---
 
-<nav
-  class="flex flex-row justify-between items-center bg-gray-300 text-black dark:bg-gray-800 dark:text-orange-50 py-2 px-4 md:px-40"
->
-  <!-- Left contents -->
-  <div class="flex flex-row gap-6 pl-6">
-    <div
-      class="hover:bg-purple-500 hover:text-white p-4 rounded-full dark:hover:bg-purple-200 dark:hover:text-zinc-900 hover:cursor-pointer font-bold"
-    >
-      Home
+<nav class="bg-gray-300 text-black dark:bg-gray-800 dark:text-orange-50 py-2 px-4 md:px-40">
+  <div class="hidden md:flex flex-row justify-between items-center">
+    <!-- Left contents -->
+    <div class="flex flex-row gap-6 pl-6">
+      <div
+        class="hover:bg-purple-500 hover:text-white p-4 rounded-full dark:hover:bg-purple-200 dark:hover:text-zinc-900 hover:cursor-pointer font-bold"
+      >
+        <a href="/">Home</a>
+      </div>
+      <div
+        class="hover:bg-purple-500 hover:text-white p-4 rounded-full dark:hover:bg-purple-200 dark:hover:text-zinc-900 hover:cursor-pointer font-bold"
+      >
+        <a href="/">Solutions</a>
+      </div>
+      <div
+        class="hover:bg-purple-500 hover:text-white p-4 rounded-full dark:hover:bg-purple-200 dark:hover:text-zinc-900 hover:cursor-pointer font-bold"
+      >
+        <a href="/">About Me</a>
+      </div>
+      <div
+        class="hover:bg-purple-500 hover:text-white p-4 rounded-full dark:hover:bg-purple-200 dark:hover:text-zinc-900 hover:cursor-pointer font-bold"
+      >
+        <a href="/">Contact Me</a>
+      </div>
     </div>
-    <div
-      class="hover:bg-purple-500 hover:text-white p-4 rounded-full dark:hover:bg-purple-200 dark:hover:text-zinc-900 hover:cursor-pointer font-bold"
-    >
-      Solutions
-    </div>
-    <div
-      class="hover:bg-purple-500 hover:text-white p-4 rounded-full dark:hover:bg-purple-200 dark:hover:text-zinc-900 hover:cursor-pointer font-bold"
-    >
-      About Me
-    </div>
-    <div
-      class="hover:bg-purple-500 hover:text-white p-4 rounded-full dark:hover:bg-purple-200 dark:hover:text-zinc-900 hover:cursor-pointer font-bold"
-    >
-      Contact Me
+    <!-- Right Contents -->
+    <div>
+      <DarkModeToggler client:visible />
     </div>
   </div>
-  <!-- Right Contents -->
-  <div>
-    <DarkModeToggler client:visible />
+
+  <!-- Mobile View -->
+  <div class="flex flex-col justify-center items-center md:hidden min-h-[42px] z-50">
+    <div class="flex-col justify-center items-center gap-6 hidden pt-14 text-center" id="mobile_nav">
+      <div
+        id="mobile_nav_links"
+        class="hover:bg-purple-500 hover:text-white p-4 rounded-full dark:hover:bg-purple-200 dark:hover:text-zinc-900 hover:cursor-pointer font-bold"
+      >
+        <a href="/">Home</a>
+      </div>
+      <div
+        id="mobile_nav_links"
+        class="hover:bg-purple-500 hover:text-white p-4 rounded-full dark:hover:bg-purple-200 dark:hover:text-zinc-900 hover:cursor-pointer font-bold"
+      >
+        <a href="/">Solutions</a>
+      </div>
+      <div
+        id="mobile_nav_links"
+        class="hover:bg-purple-500 hover:text-white p-4 rounded-full dark:hover:bg-purple-200 dark:hover:text-zinc-900 hover:cursor-pointer font-bold"
+      >
+        <a href="/">About Me</a>
+      </div>
+      <div
+        id="mobile_nav_links"
+        class="hover:bg-purple-500 hover:text-white p-4 rounded-full dark:hover:bg-purple-200 dark:hover:text-zinc-900 hover:cursor-pointer font-bold"
+      >
+        <a href="/">Contact Me</a>
+      </div>
+    </div>
+    <div id="hamburger_btn" class="hover:cursor-pointer absolute right-4 top-3">
+      <div class="block" id="open_menu">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-8 h-8"
+        >
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+        </svg>
+      </div>
+
+      <div class="hidden" id="close_menu">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-8 h-8"
+        >
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </div>
+    </div>
   </div>
 </nav>
+<script>
+  const hamburgerBtn = document.getElementById("hamburger_btn");
+  const mobileNav = document.getElementById("mobile_nav");
+  const openMenu = document.getElementById("open_menu");
+  const closeMenu = document.getElementById("close_menu");
+  hamburgerBtn.addEventListener("click", () => {
+    mobileNav.classList.toggle("hidden");
+    openMenu.classList.toggle("hidden");
+    closeMenu.classList.toggle("hidden");
+  });
+</script>
