@@ -1,0 +1,19 @@
+---
+const { pageTitle } = Astro.props;
+---
+
+<!-- Base layout for all pages which has html and meta tags -->
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{pageTitle}</title>
+  </head>
+  <body
+    class="min-h-screen font-sans bg-rose-200 text-zinc-900 dark:bg-gradient-to-tl dark:from-blue-900 dark:to-slate-900 dark:text-white"
+  >
+    <slot />
+  </body>
+</html>
