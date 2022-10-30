@@ -34,7 +34,7 @@ import DarkModeToggler from "./darkModeToggler";
   </div>
 
   <!-- Mobile View -->
-  <div class="flex flex-col justify-center items-center md:hidden min-h-[42px] z-50">
+  <div class="flex flex-col justify-center items-center md:hidden min-h-[46px] z-50">
     <div class="flex-col justify-center items-center gap-6 hidden pt-14 text-center" id="mobile_nav">
       <div
         id="mobile_nav_links"
@@ -60,6 +60,9 @@ import DarkModeToggler from "./darkModeToggler";
       >
         <a href="/">Contact Me</a>
       </div>
+    </div>
+    <div class="hover:cursor-pointer absolute left-4 top-3">
+      <DarkModeToggler client:visible />
     </div>
     <div id="hamburger_btn" class="hover:cursor-pointer absolute right-4 top-3">
       <div class="block" id="open_menu">
