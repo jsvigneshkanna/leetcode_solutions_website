@@ -12,6 +12,23 @@ import Header from "../components/Header.astro";
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
   </head>
+  <style>
+    /* style scroll bar */
+    body::-webkit-scrollbar {
+      width: 0.6rem;
+    }
+    body::-webkit-scrollbar-track {
+      background: rgb(234 88 12); 
+    }
+    body::-webkit-scrollbar-thumb {
+      background: rgb(24 24 27);
+      border-radius:5px;
+    }
+    body::-webkit-scrollbar-thumb:hover {
+      background:  rgb(29 78 216);
+    }
+    
+  </style>
   <body
     class="min-h-screen font-sans bg-zinc-200 text-zinc-900 dark:bg-gradient-to-tl dark:from-blue-900 dark:to-slate-900 dark:text-white"
   >
