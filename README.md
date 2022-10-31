@@ -1,6 +1,7 @@
 <h1 align="center"> LeetCode Solved Programs </h1>
 <div style="display: flex; flex-direction: row; justify-content: space-between" align="center">  
   
+
   [![GitHub issues](https://img.shields.io/github/issues/jsvigneshkanna/leetcode_solved_programs?logo=github)](https://github.com/jsvigneshkanna/leetcode_solved_programs/issues) 
   [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/jsvigneshkanna/leetcode_solved_programs)](https://github.com/leetcode_solved_programs/pulls) 
   [![GitHub forks](https://img.shields.io/github/forks/jsvigneshkanna/leetcode_solved_programs?logo=github)](https://github.com/jsvigneshkanna/leetcode_solved_programs/network/members) 
@@ -13,9 +14,7 @@
 
 <div align="center">
 
-Link to site: [here](https://vkleetcodesolutions.netlify.app/)
-
-Built with
+Link to website [here](https://vkleetcodesolutions.netlify.app/)
 
 </div>
 
@@ -25,7 +24,12 @@ Built with
 
 </div>
 
+## Like to contribute to us with money?
 
+This contribution is not forced but very welcomed! This will help us with maintainance costs and keeping the website running well in the long run
+<p align="center">
+<a href = "https://www.buymeacoffee.com/jsvigneshkanna?new=1"><img src ="https://cdn.buymeacoffee.com/buttons/default-red.png" height="30"/></a>
+</p>
 
 ## Contributions
 We welcome all kinds of contributions from the open-source community, individuals and partners. We owe our success to your active involvement.
