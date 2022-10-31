@@ -1,9 +1,12 @@
 <h1 align="center"> LeetCode Solved Programs </h1>
-<div align="center">  
+<div style="display: flex; flex-direction: row; justify-content: space-between">  
   
-  [![GitHub issues](https://img.shields.io/github/issues/jsvigneshkanna/leetcode_solved_programs?logo=github)](https://github.com/jsvigneshkanna/leetcode_solved_programs/issues)  
+  [![GitHub issues](https://img.shields.io/github/issues/jsvigneshkanna/leetcode_solved_programs?logo=github)](https://github.com/jsvigneshkanna/leetcode_solved_programs/issues) 
+
   [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/jsvigneshkanna/leetcode_solved_programs)](https://github.com/leetcode_solved_programs/pulls)  
-  [![GitHub forks](https://img.shields.io/github/forks/jsvigneshkanna/leetcode_solved_programs?logo=github)](https://github.com/jsvigneshkanna/leetcode_solved_programs/network/members)  
+
+  [![GitHub forks](https://img.shields.io/github/forks/jsvigneshkanna/leetcode_solved_programs?logo=github)](https://github.com/jsvigneshkanna/leetcode_solved_programs/network/members) 
+
   [![GitHub stars](https://img.shields.io/github/stars/jsvigneshkanna/leetcode_solved_programs?logo=github)](https://github.com/jsvigneshkanna/tleetcode_solved_programs/stargazers) 
   
 </div>
