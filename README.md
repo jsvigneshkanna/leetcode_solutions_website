@@ -1,4 +1,15 @@
 <h1 align="center"> LeetCode Solved Programs </h1>
+<div align="center">  
+  
+  [![GitHub issues](https://img.shields.io/github/issues/jsvigneshkanna/leetcode_solved_programs?logo=github)](https://github.com/jsvigneshkanna/leetcode_solved_programs/issues)  
+  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/jsvigneshkanna/leetcode_solved_programs)](https://github.com/leetcode_solved_programs/pulls)  
+  [![GitHub forks](https://img.shields.io/github/forks/jsvigneshkanna/leetcode_solved_programs?logo=github)](https://github.com/jsvigneshkanna/leetcode_solved_programs/network/members)  
+  [![GitHub stars](https://img.shields.io/github/stars/jsvigneshkanna/leetcode_solved_programs?logo=github)](https://github.com/jsvigneshkanna/tleetcode_solved_programs/stargazers) 
+  
+</div>
+
+
+
 <p align="center"> 🥸 Hey, this is a project where I would be storing my solutions to my LeetCode problems. Come let's all learn together from this project! 🍻 </p>
 
 <div align="center">
@@ -14,6 +25,8 @@ Built with
 ![Astro](https://img.shields.io/badge/-Astro-000000?style=for-the-badge&logo=astro) ![TailwindCSS](https://img.shields.io/badge/tailwind%20css-000000.svg?style=for-the-badge&logo=tailwind-css&logoColor=38b2ac) ![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)
 
 </div>
+
+
 
 ## Contributions
 We welcome all kinds of contributions from the open-source community, individuals and partners. We owe our success to your active involvement.
