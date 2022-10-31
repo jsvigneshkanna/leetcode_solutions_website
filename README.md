@@ -1,11 +1,11 @@
 <h1 align="center"> LeetCode Solved Programs </h1>
 <p align="center"> 🥸 Hey, this is a project where I would be storing my solutions to my LeetCode problems. Come let's all learn together from this project! 🍻 </p>
 
-<div align="center"> 
+<div align="center">
 
-Link to site: [here](https://vkleetcodesolutions.netlify.app/) 
+Link to site: [here](https://vkleetcodesolutions.netlify.app/)
 
-Built with 
+Built with
 
 </div>
 
@@ -25,5 +25,12 @@ Contributors can contribute to the project in the following ways:
 
 Create an issue to start discussing about new features!
 
-<img align="right" src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"> <img align="right" src="https://hits.dwyl.com/jsvigneshkanna/leetcode_solved_programs.svg?style=flat-square" > 
-<hr>
+<img align="right" src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"> <img align="right" src="https://hits.dwyl.com/jsvigneshkanna/leetcode_solved_programs.svg?style=flat-square" >
+
+# Contributors 🎉
+
+These people are sole backbone for this software. Want to get place in below hall of fame? join our community
+
+<a href="https://github.com/jsvigneshkanna/leetcode_solved_programs/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=jsvigneshkanna/leetcode_solved_programs" />
+</a>
