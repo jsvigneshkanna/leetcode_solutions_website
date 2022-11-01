@@ -16,6 +16,7 @@ const { frontmatter } = Astro.props;
     <h3 class="font-semibold text-xl text-center py-2 text-blue-700 dark:text-white">
       Language Used: {frontmatter.language}
     </h3>
-    <slot />
+    <pre><code class="language-python"><slot /></code></pre>
+    <!-- <slot /> -->
   </div>
 </BaseLayout>

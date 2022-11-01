@@ -1,6 +1,7 @@
 ---
 const { pageTitle } = Astro.props;
 import Header from "../components/Header.astro";
+import "../prism/prism.css";
 ---
 
 <!-- Base layout for all pages which has html and meta tags -->
@@ -18,21 +19,21 @@ import Header from "../components/Header.astro";
       width: 0.6rem;
     }
     body::-webkit-scrollbar-track {
-      background: rgb(234 88 12); 
+      background: rgb(234 88 12);
     }
     body::-webkit-scrollbar-thumb {
       background: rgb(24 24 27);
-      border-radius:5px;
+      border-radius: 5px;
     }
     body::-webkit-scrollbar-thumb:hover {
-      background:  rgb(29 78 216);
+      background: rgb(29 78 216);
     }
-    
   </style>
   <body
     class="min-h-screen font-sans bg-zinc-200 text-zinc-900 dark:bg-gradient-to-tl dark:from-blue-900 dark:to-slate-900 dark:text-white"
   >
     <Header />
     <slot />
+    <script src="../prism/prism.js"></script>
   </body>
 </html>

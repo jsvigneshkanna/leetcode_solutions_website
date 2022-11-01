@@ -11,6 +11,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/prism": "^1.0.1",
     "@astrojs/react": "^1.2.2",
     "@astrojs/tailwind": "^2.1.1",
     "@types/react": "^18.0.24",
