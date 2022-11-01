@@ -3,9 +3,9 @@ layout: ../../../layouts/MarkdownLayout.astro
 title: Palindrome
 language: python
 createdDate: 30/10/2022
+question: Given an integer x, return true if x is a palindrome, and false otherwise.
+leetcodeLink: https://leetcode.com/problems/palindrome-number/
 ---
-
-## Solution
 
 ```
 const fs = require('fs')
