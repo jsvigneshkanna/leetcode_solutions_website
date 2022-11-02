@@ -1,62 +1,67 @@
 ---
-import HomeBanner from '../components/HomeBanner.astro'
-import BaseLayout from '../layouts/BaseLayout.astro'
+import HomeBanner from "../components/HomeBanner.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<BaseLayout pageTitle={'Leetcode Solutions 🪨'}>
-    <section class="bg-white dark:bg-gray-900">
-        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Me</h2>
-            <div class="flex justify-between">
-                <p class="mb-4 lg:mb-8 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
-                    This is an open source project, feel free to contribute. Contact me if you have any questions or suggestions.
-                </p>
-            </div>
-            <div class="flex items-center justify-center pb-8 pl-12">
-                <iframe
-                    class="text-center"
-                    src="https://ghbtns.com/github-btn.html?user=jsvigneshkanna&repo=leetcode_solved_programs&type=star&count=true&size=large"
-                    frameborder="0"
-                    scrolling="0"
-                    width="170"
-                    height="30"
-                    title="GitHub"></iframe>
-            </div>
-            <form action="#" class="space-y-8">
-                <div>
-                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
-                    <input
-                        type="email"
-                        id="email"
-                        class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                        placeholder="name@domain.com"
-                        required
-                    />
-                </div>
-                <div>
-                    <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
-                    <input
-                        type="text"
-                        id="subject"
-                        class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                        placeholder="Let me know what's up"
-                        required
-                    />
-                </div>
-                <div class="sm:col-span-2">
-                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
-                    <textarea
-                        id="message"
-                        rows="6"
-                        class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-                        placeholder="Leave your suggestions..."></textarea>
-                </div>
-                <button
-                    type="submit"
-                    class="pointer-events-none py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-                    >Send message</button
-                >
-            </form>
+<BaseLayout pageTitle={"Leetcode Solutions 🪨"}>
+  <section class="bg-white dark:bg-gray-800 py-10 md:py-20">
+    <div class="py-8 md:py-16 px-4 mx-auto max-w-screen-md">
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Me</h2>
+      <div class="flex justify-between">
+        <p class="mb-4 md:mb-8 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
+          This is an open source project, feel free to contribute. Contact me if you have any issue or suggestions. I
+          would atmost try to reply the messages ASAP 🚀
+        </p>
+      </div>
+      <div class="flex items-center justify-center pb-8 pl-12">
+        <iframe
+          class="text-center"
+          src="https://ghbtns.com/github-btn.html?user=jsvigneshkanna&repo=leetcode_solved_programs&type=star&count=true&size=large"
+          frameborder="0"
+          scrolling="0"
+          width="170"
+          height="30"
+          title="GitHub"></iframe>
+      </div>
+      <form action="#" class="space-y-8">
+        <div>
+          <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-100">Your email</label>
+          <input
+            type="email"
+            id="email"
+            class="shadow-md dark:shadow-zinc-900 shadow-zinc-100 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-md-light"
+            placeholder="your email with good domain"
+            required
+          />
         </div>
-    </section>
+        <div>
+          <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-100">Subject</label>
+          <input
+            type="text"
+            id="subject"
+            class="dark:shadow-zinc-900 shadow-zinc-100 block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+            placeholder="Let me know what's up"
+            required
+          />
+        </div>
+        <div class="sm:col-span-2">
+          <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-100"
+            >Your message</label
+          >
+          <textarea
+            id="message"
+            rows="6"
+            class="dark:shadow-zinc-900 shadow-zinc-100 block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+            placeholder="Leave your suggestions..."></textarea>
+        </div>
+        <div class="flex justify-center items-center">
+          <button
+            type="submit"
+            class="pointer-events-none py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+            >Send message</button
+          >
+        </div>
+      </form>
+    </div>
+  </section>
 </BaseLayout>
