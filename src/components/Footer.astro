@@ -1,0 +1,26 @@
+---
+const date = new Date();
+const currentYear = date.getFullYear();
+import { AiOutlineGithub, AiFillLinkedin } from "react-icons/ai/index.js";
+import { SiDiscord, SiBuymeacoffee } from "react-icons/si/index.js";
+---
+
+<div
+  class="flex flex-col-reverse md:flex-row gap-6 md:gap-0 justify-center md:justify-between items-center px-4 md:px-64 py-5 md:py-10 bg-sky-100 text-blue-800 dark:bg-blue-900 dark:text-white"
+>
+  <div class="flex flex-col justify-center items-center">
+    <p class="font-bold text-base md:text-lg mb-1 md:mb-3">VK Leetcode Solutions</p>
+    <p class="font-bold text-base md:text-lg text-orange-700 dark:text-orange-300">
+      © Copyright {currentYear} JS Vignesh Kanna
+    </p>
+  </div>
+  <div class="flex flex-col">
+    <p class="font-bold text-base md:text-lg mb-2 md:mb-3">Follow me on:</p>
+    <div class="flex flex-row justify-between items-center gap-2 text-base md:text-lg text-black dark:text-white">
+      <a href="https://github.com/jsvigneshkanna" target="_blank" rel="noopener noreferrer"><AiOutlineGithub /></a>
+      <a href="https://github.com/jsvigneshkanna" target="_blank" rel="noopener noreferrer"><AiFillLinkedin /></a>
+      <a href="https://github.com/jsvigneshkanna" target="_blank" rel="noopener noreferrer"><SiDiscord /></a>
+      <a href="https://github.com/jsvigneshkanna" target="_blank" rel="noopener noreferrer"><SiBuymeacoffee /></a>
+    </div>
+  </div>
+</div>
