@@ -2,12 +2,12 @@
 import SolutionsBanner from "../components/SolutionsBanner.astro";
 import BaseLayout from "./BaseLayout.astro";
 const { frontmatter } = Astro.props;
-import { SiLeetcode } from "react-icons/si";
+import { SiLeetcode } from "react-icons/si/index.js";
 ---
 
 <BaseLayout pageTitle={`Leetcode | ${frontmatter.title}`}>
   <SolutionsBanner />
-  <div class="md:mx-40 mx-4 relative">
+  <div class="md:mx-40 mx-4 relative mb-32">
     <div class="flex justify-end items-end py-4">
       <a
         href="/solutions"
