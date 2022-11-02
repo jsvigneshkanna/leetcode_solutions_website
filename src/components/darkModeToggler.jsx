@@ -18,7 +18,7 @@ const DarkModeToggler = () => {
   }, [theme]);
 
   return (
-    <button onClick={handleClick} className="h-10 w-10 dark:bg-zinc-400 rounded-full bg-rose-600">
+    <button onClick={handleClick} className="h-10 w-10 dark:bg-zinc-300 rounded-full bg-rose-500">
       {theme === "light" ? "🌙" : "🌞"}
     </button>
   );
